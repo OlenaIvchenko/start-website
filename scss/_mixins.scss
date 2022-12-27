@@ -85,3 +85,7 @@ $breakpoints: (
     transition-duration: 0.2s;
     transition-timing-function: ease;
   }
+
+  @mixin border ($color: transparent) {
+    border: 1px solid $color;
+  }
